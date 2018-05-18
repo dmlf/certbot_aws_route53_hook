@@ -8,7 +8,7 @@ use strict;
 use warnings;
 
 my $timeout = 300;
-my $route53ZoneId = "Z1EXAMPLE"
+my $route53ZoneId = "Z1EXAMPLE";
 my $domain = $ENV{'CERTBOT_DOMAIN'};
 my $validation = $ENV{'CERTBOT_VALIDATION'};
 
